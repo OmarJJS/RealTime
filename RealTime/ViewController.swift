@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ref = Database.database().reference()
-        ObserveData()//Comentario
+        ObserveData()//Comentario nuevo
     }
     
     
